@@ -1,0 +1,265 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    margin-top: 138.4px;
+}
+
+/* header */
+
+header {
+    padding: 32px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #372D23;
+    position: fixed;
+    max-width: inherit;
+    width: inherit;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    z-index: 1;
+}
+
+ul {
+    display: flex;
+    column-gap: 48px;
+}
+
+.img_food {
+    width: 72px;
+    height: 72px;
+}
+
+.active,
+.no_active {
+    color: #B89278;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.active {
+    color: #ED6C30;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.fa-bag-shopping {
+    font-size: 40px;
+    color: #FCC21B;
+    flex-shrink: 0;
+}
+
+/* section1 */
+.section_1 {
+    position: relative;
+    height: 640px;
+    z-index: 0;
+}
+
+.section_1_img {
+    width: 100%;
+    height: 100%;
+}
+
+.section_1_txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section_1_title {
+    color: #FFF;
+    text-shadow: 0px 6px 4px #372D23;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 32px;
+}
+
+.section_1_btn {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    background-color: transparent;
+    padding: 12px 38px;
+    border: 3px solid #FCC21B;
+    box-shadow: 0px 4px 4px 0px #372D23;
+}
+
+/* section2 */
+.section_2 {
+    padding: 80px;
+    display: flex;
+    column-gap: 40px;
+}
+
+.card {
+    height: 320px;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card_box1,
+.card_box2,
+.card_box3 {
+    background-color: #372D23CC;
+    backdrop-filter: blur(2px);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 88px;
+    display: flex;
+}
+
+.card_box1 {
+    padding: 28px 69px;
+}
+
+.card_box2 {
+    padding: 32px 47px 32px 95px;
+}
+
+.card_box3 {
+    padding: 28px 77px 28px 78px;
+}
+
+h6 {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.fa-utensils,
+.fa-mug-hot,
+.fa-bed {
+    font-size: 32px;
+    color: #ED6C30;
+    margin-right: 10px;
+}
+
+/* article */
+.article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    padding: 80px 190px;
+}
+
+.artcle_title {
+    color: #372D23;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 40px;
+}
+
+.article_txt {
+    color: #855C52;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+.article_btn {
+    color: #FFF;
+    width: 211px;
+    height: 52px;
+    background: #ED6C30;
+}
+
+/* footer */
+
+footer {
+    padding: 32px 300px 32px 300px;
+    background: #372D23;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul_footer {
+    display: block;
+}
+
+.footer_food {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.footer_menu,
+.footer_allergens,
+.footer_good {
+    color: #B89278;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer_connect {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer_inst,
+.footer_link,
+.footer_face,
+.footer_tik {
+    color: #FCC21B;
+    font-size: 24px;
+}
+
+.footer_inst,
+.footer_link,
+.footer_face {
+    margin-right: 16px;
+}
+
+.footer_connect {
+    margin-bottom: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 150px #494ee6;
+}
