@@ -22,7 +22,7 @@ header {
     z-index: 1;
 }
 
-ul {
+header ul {
     display: flex;
     column-gap: 48px;
 }
