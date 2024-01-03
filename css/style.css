@@ -243,16 +243,6 @@ footer {
     font-size: 24px;
 }
 
-.footer_inst,
-.footer_link,
-.footer_face {
-    margin-right: 16px;
-}
-
-.footer_connect {
-    margin-bottom: 16px;
-}
-
 button:hover {
     cursor: pointer;
     box-shadow: 0 0 150px #494ee6;
