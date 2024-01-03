@@ -230,6 +230,11 @@ footer {
     line-height: 24px;
 }
 
+.icons {
+    display: flex;
+    column-gap: 16px;
+}
+
 .footer_inst,
 .footer_link,
 .footer_face,
