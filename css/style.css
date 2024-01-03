@@ -205,7 +205,6 @@ footer {
 
 .footer_food {
     color: #FFF;
-    text-align: center;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -214,22 +213,21 @@ footer {
     margin-bottom: 16px;
 }
 
+.ul_footer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
 .footer_menu,
 .footer_allergens,
 .footer_good {
     color: #B89278;
-    text-align: center;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-}
-
-.footer_connect {
-    color: #FFF;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
 }
 
 .footer_inst,
